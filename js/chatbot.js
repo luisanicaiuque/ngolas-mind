@@ -8,11 +8,11 @@ const entryIDs = {
 };
 
 const questions = [
-  { text: "Como você está se sentindo hoje?", entry: entryIDs.mood, options: ["Muito bem", "Bem", "Neutro", "Triste", "Muito triste"] },
-  { text: "Você tem dormido bem?", entry: entryIDs.sleep, options: ["Sim", "Não"] },
-  { text: "Tem se sentido ansioso(a)?", entry: entryIDs.anxiety, options: ["Sim", "Não"] },
-  { text: "Gostaria que um voluntário entre em contato com você?", entry: entryIDs.contact, options: ["Sim", "Não"] },
-  { text: "Informe seu nome ou email (opcional):", entry: entryIDs.name, options: null }
+  { text: "How are you feeling today?", entry: entryIDs.mood, options: ["Very Well", "Good", "Neutral", "Sad", "Very Sad"] },
+  { text: "Have you been sleeping good?", entry: entryIDs.sleep, options: ["Yes", "No"] },
+  { text: "Have you been feeling anxious?", entry: entryIDs.anxiety, options: ["Yes", "No"] },
+  { text: "Would you like to ve contacted by a volunteer?", entry: entryIDs.contact, options: ["Yes", "No"] },
+  { text: "Your name or email (opcional):", entry: entryIDs.name, options: null }
 ];
 
 let current = 0;
